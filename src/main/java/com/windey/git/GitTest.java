@@ -25,6 +25,10 @@ public class GitTest {
         Class aClass = new Class(1,"important class","sixth");
         System.out.println(aClass.toString());
 
+        Class c2 = new Class(2, "Bad class", "six");
+        System.out.println(c2.toString());
+
+
 
     }
 
