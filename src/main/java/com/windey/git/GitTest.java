@@ -13,5 +13,15 @@ public class GitTest {
         System.out.println("push test");
         System.out.println("push test2");
         System.out.println("pull test");
+
+        sayHello();
+
+
+    }
+
+    public static void sayHello(){
+        int a = 10;
+        int b = 20;
+        System.out.println((a+b));
     }
 }
