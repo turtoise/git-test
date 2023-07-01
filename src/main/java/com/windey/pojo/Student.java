@@ -6,6 +6,7 @@ public class Student {
     private int score;
     private int weight;
     private int height;
+    private String address;
 
     public Student(String name) {
         this.name = name;
