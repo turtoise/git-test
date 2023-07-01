@@ -1,5 +1,6 @@
 package com.windey.git;
 
+import com.windey.pojo.Class;
 import com.windey.pojo.Student;
 
 public class GitTest {
@@ -21,6 +22,8 @@ public class GitTest {
         Student student = new Student("dahai");
         System.out.println(student.toString());
 
+        Class aClass = new Class(1,"important class","sixth");
+        System.out.println(aClass.toString());
 
 
     }
