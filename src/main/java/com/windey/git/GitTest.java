@@ -1,5 +1,7 @@
 package com.windey.git;
 
+import com.windey.pojo.Student;
+
 public class GitTest {
 
     public static void main(String[] args) {
@@ -15,6 +17,10 @@ public class GitTest {
         System.out.println("pull test");
 
         sayHello();
+
+        Student student = new Student("dahai");
+        System.out.println(student.toString());
+
 
 
     }
